@@ -1,0 +1,14 @@
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+engineerr3\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+engineerr3\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+engineerr3\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+engineerr3\croutine.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/Third_Party/FreeRTOS/Source/include/list.h

@@ -1,0 +1,13 @@
+engineerr3\arm_mat_trans_f32.o: ..\Drivers\CMSIS\DSP\Source\MatrixFunctions\arm_mat_trans_f32.c
+engineerr3\arm_mat_trans_f32.o: ..\Drivers\CMSIS\DSP\Include\dsp/matrix_functions.h
+engineerr3\arm_mat_trans_f32.o: ..\Drivers\CMSIS\DSP\Include\arm_math_types.h
+engineerr3\arm_mat_trans_f32.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Drivers/CMSIS/Include/cmsis_compiler.h
+engineerr3\arm_mat_trans_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+engineerr3\arm_mat_trans_f32.o: C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Drivers/CMSIS/Include/cmsis_armcc.h
+engineerr3\arm_mat_trans_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+engineerr3\arm_mat_trans_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+engineerr3\arm_mat_trans_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+engineerr3\arm_mat_trans_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+engineerr3\arm_mat_trans_f32.o: ..\Drivers\CMSIS\DSP\Include\arm_math_memory.h
+engineerr3\arm_mat_trans_f32.o: ..\Drivers\CMSIS\DSP\Include\dsp/none.h
+engineerr3\arm_mat_trans_f32.o: ..\Drivers\CMSIS\DSP\Include\dsp/utils.h

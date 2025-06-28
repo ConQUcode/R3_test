@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ZHANG 1173725220@qq.com, CQU, LIC=32B1Q-NHTZI-LQT0Q-NB76Z-FM837-T69RK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\11737\Desktop\EngineerR3\MDK-ARM\EngineerR3.uvprojx
+Project File Date:  06/29/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'EngineerR3'
+compiling chassis.c...
+C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h(51): warning:  #47-D: incompatible redefinition of macro "__FPU_PRESENT" 
+  #define __FPU_PRESENT             1U       /*!< FPU present                                   */
+../MODULE/miniPC_process.h(223): warning:  #1295-D: Deprecated declaration NacSend - give arg types
+  void NacSend();
+../MODULE/miniPC_process.h(288): warning:  #1-D: last line of file ends without a newline
+  #endif // MINIPC_PROCESS_H
+..\APPLICATION\chassis\chassis.c(38): warning:  #188-D: enumerated type mixed with another type
+  							.Improve       = PID_Trapezoid_Intergral | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\APPLICATION\chassis\chassis.c(55): warning:  #188-D: enumerated type mixed with another type
+  					.close_loop_type       = CURRENT_LOOP | SPEED_LOOP  ,
+..\APPLICATION\chassis\chassis.c(88): warning:  #188-D: enumerated type mixed with another type
+          .Improve           = PID_Trapezoid_Intergral | PID_DerivativeFilter | PID_DerivativeFilter | PID_Derivative_On_Measurement | PID_Integral_Limit | PID_Derivative_On_Measurement,
+..\APPLICATION\chassis\chassis.c(15): warning:  #550-D: variable "nac_ctrl"  was set but never used
+  static Nac_Recv_s *nac_ctrl; // 视觉控制信息
+..\APPLICATION\chassis\chassis.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=14556 RO-data=524 RW-data=148 ZI-data=95644  
+FromELF: creating hex file...
+"EngineerR3\EngineerR3.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil.STM32F4xx_DFP.3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_EngineerR3
+  C:\Users\11737\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
